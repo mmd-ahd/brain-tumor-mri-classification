@@ -1,0 +1,152 @@
+--- Training Logistic Regression ---
+Accuracy: 0.8719
+Training Time: 1.47 seconds
+
+Classification Report for Logistic Regression:
+
+              precision    recall  f1-score   support
+
+      glioma       0.82      0.80      0.81       300
+  meningioma       0.77      0.76      0.77       306
+     notumor       0.96      0.98      0.97       405
+   pituitary       0.91      0.90      0.90       300
+
+    accuracy                           0.87      1311
+   macro avg       0.86      0.86      0.86      1311
+weighted avg       0.87      0.87      0.87      1311
+
+------------------------------
+
+--- Training Linear Discriminant Analysis ---
+Accuracy: 0.8055
+Training Time: 0.20 seconds
+
+Classification Report for Linear Discriminant Analysis:
+
+              precision    recall  f1-score   support
+
+      glioma       0.84      0.75      0.79       300
+  meningioma       0.65      0.56      0.60       306
+     notumor       0.89      0.94      0.91       405
+   pituitary       0.80      0.93      0.86       300
+
+    accuracy                           0.81      1311
+   macro avg       0.79      0.79      0.79      1311
+weighted avg       0.80      0.81      0.80      1311
+
+------------------------------
+
+--- Training K-Nearest Neighbors ---
+Accuracy: 0.8856
+Training Time: 0.16 seconds
+
+Classification Report for K-Nearest Neighbors:
+
+              precision    recall  f1-score   support
+
+      glioma       0.93      0.88      0.90       300
+  meningioma       0.86      0.69      0.77       306
+     notumor       0.92      0.96      0.94       405
+   pituitary       0.83      0.99      0.90       300
+
+    accuracy                           0.89      1311
+   macro avg       0.88      0.88      0.88      1311
+weighted avg       0.89      0.89      0.88      1311
+
+------------------------------
+
+--- Training Naive Bayes ---
+
+Accuracy: 0.7521
+Training Time: 0.07 seconds
+
+Classification Report for Naive Bayes:
+
+              precision    recall  f1-score   support
+
+      glioma       0.69      0.67      0.68       300
+  meningioma       0.55      0.56      0.55       306
+     notumor       0.92      0.86      0.89       405
+   pituitary       0.81      0.88      0.84       300
+
+    accuracy                           0.75      1311
+   macro avg       0.74      0.74      0.74      1311
+weighted avg       0.75      0.75      0.75      1311
+
+------------------------------
+
+--- Training Decision Tree ---
+Accuracy: 0.8169
+Training Time: 4.29 seconds
+
+Classification Report for Decision Tree:
+
+              precision    recall  f1-score   support
+
+      glioma       0.72      0.68      0.70       300
+  meningioma       0.70      0.73      0.71       306
+     notumor       0.94      0.96      0.95       405
+   pituitary       0.86      0.85      0.85       300
+
+    accuracy                           0.82      1311
+   macro avg       0.81      0.80      0.80      1311
+weighted avg       0.82      0.82      0.82      1311
+
+------------------------------
+
+--- Training Random Forest ---
+Accuracy: 0.9001
+Training Time: 8.81 seconds
+
+Classification Report for Random Forest:
+
+              precision    recall  f1-score   support
+
+      glioma       0.86      0.80      0.83       300
+  meningioma       0.84      0.80      0.82       306
+     notumor       0.98      1.00      0.99       405
+   pituitary       0.89      0.98      0.93       300
+
+    accuracy                           0.90      1311
+   macro avg       0.89      0.89      0.89      1311
+weighted avg       0.90      0.90      0.90      1311
+
+------------------------------
+
+--- Training Support Vector Machine ---
+Accuracy: 0.9321
+Training Time: 8.97 seconds
+
+Classification Report for Support Vector Machine:
+
+              precision    recall  f1-score   support
+
+      glioma       0.95      0.87      0.91       300
+  meningioma       0.86      0.87      0.87       306
+     notumor       0.97      0.99      0.98       405
+   pituitary       0.94      0.98      0.96       300
+
+    accuracy                           0.93      1311
+   macro avg       0.93      0.93      0.93      1311
+weighted avg       0.93      0.93      0.93      1311
+
+------------------------------
+
+--- Training Ensemble Classifier ---
+Accuracy: 0.9405
+Training Time: 17.88 seconds
+
+Classification Report for Ensemble Classifier:
+
+              precision    recall  f1-score   support
+
+      glioma       0.94      0.89      0.91       300
+  meningioma       0.89      0.88      0.88       306
+     notumor       0.98      1.00      0.99       405
+   pituitary       0.94      0.98      0.96       300
+
+    accuracy                           0.94      1311
+   macro avg       0.94      0.94      0.94      1311
+weighted avg       0.94      0.94      0.94      1311
+
+------------------------------
