@@ -77,12 +77,12 @@ This project addresses the critical challenge of brain tumor classification usin
 ---
 
 ## Results and Comparison
-| Model                  | Accuracy | Precision | Recall | F1-Score |
-|-----------------------|----------|-----------|--------|----------|
-| Logistic Regression   | 87.19%   | 0.87      | 0.87   | 0.87     |
-| SVM                   | 93.21%   | 0.93      | 0.93   | 0.93     |
-| Ensemble Classifier   | 94.05%   | 0.94      | 0.94   | 0.94     |
-| **CNN**               | **98.00%** | **0.98**  | **0.98** | **0.98**  |
+| Model                  | Accuracy |
+|-----------------------|----------|
+| Logistic Regression   | 87.19%   |
+| SVM                   | 93.21%   |
+| Ensemble Classifier   | 94.05%   |
+| **CNN**               | **98.00%** |
 
 - Confusion matrix confirms excellent performance, particularly on `pituitary` and `no tumor` classes
 - CNN significantly outperforms all classical models in all metrics
